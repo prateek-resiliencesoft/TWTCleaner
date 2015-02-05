@@ -73,8 +73,12 @@ foreach($links as $key=>$val){
 	$maxid=$val['id_str'];
     
 }
-echo $maxid.":".$id;
 
+//update database 
+
+
+echo $maxid.":".$id;
+mysqli_query($conn, "UPDATE DeleteRT set CronStatus=".Used." and CursorValue='".$maxid."' where UserName='$UserName'");
 mysqli_close($conn);
 ?>
 
