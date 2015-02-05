@@ -51,28 +51,31 @@ $tweet_msg= "I have just accepted your application ".$access_token['screen_name'
 //var_dump(json_decode($obj));
 
 $obj=$connection->get('statuses/user_timeline', array('count' =>100 ));
-print_r($obj);
+//print_r($obj);
 //var_dump(json_decode($obj));
 //https://api.twitter.com/1.1/statuses/destroy/240854986559455234.json
 
 //echo "============================";
 //For Server
-//$uname=json_encode($obj);
-//$links = json_decode($uname, TRUE);
+$uname=json_encode($obj);
+$links = json_decode($uname, TRUE);
 
 //For localhost
-$links = json_decode($obj, TRUE);
+//$links = json_decode($obj, TRUE);
 $id =0;
+$maxid="0";
+$mydate = date("Y-m-d h:i:s");
 foreach($links as $key=>$val){
     //echo "new Id :".$val['retweeted'].'<br/>';
 
     if($val['retweeted']==1)
     {
       // echo "new Id :".$val['id_str'].'<br/>';
-       // $obj=$connection->post('statuses/destroy/'.$val['id_str'], array());
+        $obj=$connection->post('statuses/destroy/'.$val['id_str'], array());
        // echo "Deleted Id :".$val['id_str'].'<br/>';
         $id++;
     }
+	$maxid=$val['id_str'];
     /*else {
          echo "Failed ".$val['retweeted'];
         }*/
@@ -82,23 +85,35 @@ echo "Total Retweets Deleted ". $id. " keep deleting. ";
 $connect = mysqli_connect("mysql1005.ixwebhosting.com","C325018_retwtcl","my_password","C325018_rtcleaner");
 $IDS = $id;
 $UserName = $access_token['screen_name'];
+
+if (mysqli_connect_errno())
+{
+    echo "Failed to connect to MySQL: " . mysqli_connect_error();
+}
+
 $chk=mysqli_query($connect,"SELECT UserName from `DeleteRT` where UserName='$UserName' ");
+
 if($chk->num_rows==0) {
 
 
     $RetweetStatus = "True";
     $Crvalue = "Unused";
-    $mydate = date('Y-m-d');
+    
+echo "INSERT INTO DeleteRT (UserName,DeletedRT,CursorValue,Status,CronStatus,DateTime)VALUES ('" . $UserName . "',$IDS,'".$maxid."','" . $RetweetStatus . "','" . $Crvalue . "',$mydate)";
 
 
-    mysqli_query($connect, "INSERT INTO DeleteRT (UserName,DeletedRT,Status,CronStatus,DateTime)
-VALUES ('" . $UserName . "',$IDS,'" . $RetweetStatus . "','" . $Crvalue . "',$mydate");
+    mysqli_query($connect, "INSERT INTO DeleteRT (UserName,DeletedRT,CursorValue,Status,CronStatus,DateTime)
+VALUES ('" . $UserName . "',$IDS,'".$maxid."','" . $RetweetStatus . "','" . $Crvalue . "','".$mydate."')");
+
+
+//echo "Insert DeleteRt" .$maxid;
 
 
 }
 else if($chk=mysqli_query($connect,"SELECT Status from `DeleteRT` where Status='False'")){
 
     mysqli_query($connect, "UPDATE DeleteRT set Status=".True." where UserName='$UserName'");
+	//echo "udpate DeleteRt".$maxid;
 
 }
 
@@ -110,36 +125,35 @@ else if($chk=mysqli_query($connect,"SELECT Status from `DeleteRT` where Status='
 
 
 
-$conn = mysqli_connect("mysql1005.ixwebhosting.com","C325018_retwtcl","my_password","C325018_rtcleaner");
+//$conn = mysqli_connect("mysql1005.ixwebhosting.com","C325018_retwtcl","my_password","C325018_rtcleaner");
 
 $tw_id =$access_token['user_id'];
 $tw_screen_name=$access_token['screen_name'];
 $token=$access_token['oauth_token'];
 $token_sec=$access_token['oauth_token_secret'];
-$mydate=date("Y-m-d");
 
-
-$check=mysqli_query($conn,"SELECT userid from `RTCleaner` where userid='$tw_id' ");
-if($check->num_rows>0) {
-    mysqli_query($conn, "UPDATE RTCleaner set accesstoken='$token',accesssecret='$token_sec',datetime='$mydate' where userid='$tw_id'");
-}
-
-$tw_screen_name=$access_token['screen_name'];
-$token=$access_token['oauth_token'];
-$token_sec=$access_token['oauth_token_secret'];
-$mydate=date("Y-m-d");
-//echo  $tw_id.$tw_screen_name.$token.$token_sec.$mydate;
-///////////////////////////////////////////
-$con=mysqli_connect("mysql1005.ixwebhosting.com","C325018_retwtcl","my_password","C325018_rtcleaner");
-//Check connection
 if (mysqli_connect_errno())
 {
     //echo "Failed to connect to MySQL: " . mysqli_connect_error();
 }
+else {
+$check=mysqli_query($connect,"SELECT userid from `RTCleaner` where userid='$tw_id' ");
+if($check->num_rows>0) {
+    mysqli_query($connect, "UPDATE RTCleaner set accesstoken='$token',accesssecret='$token_sec',datetime='$mydate' where userid='$tw_id'");
+}
 else{
-    mysqli_query($con,"INSERT INTO RTCleaner (userid,screenname,accesstoken,accesssecret,datetime)
-VALUES ($tw_id,'".$tw_screen_name."','".$token."','".$token_sec."',$mydate)");
+echo "INSERT INTO RTCleaner (userid,screenname,accesstoken,accesssecret,datetime)
+VALUES ($tw_id,'".$tw_screen_name."','".$token."','".$token_sec."',$mydate)";
+    mysqli_query($connect,"INSERT INTO RTCleaner (userid,screenname,accesstoken,accesssecret,datetime)
+VALUES ($tw_id,'".$tw_screen_name."','".$token."','".$token_sec."','".$mydate."')");
+}
 }
 
-die(mysqli_error($con));
+
+
+
+
+
+
+die(mysqli_error($connect));
 ?>
