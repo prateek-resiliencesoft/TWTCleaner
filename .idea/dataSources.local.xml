@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - C325018_rtcleaner@mysql1005.ixwebhosting.com" uuid="486127e3-009a-4b91-a1c2-65085a94bb7d">
+      <secret-storage>master_key</secret-storage>
+      <user-name>C325018_retwtcl</user-name>
+      <schema-pattern>C325018_rtcleaner.*</schema-pattern>
+      <default-schemas>C325018_rtcleaner.*</default-schemas>
+    </data-source>
+  </component>
+</project>
