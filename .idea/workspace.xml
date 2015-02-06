@@ -73,26 +73,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rt.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="rt.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Admin/rt.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="527">
-              <caret line="22" column="53" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.7891683" vertical-offset="0" max-vertical-offset="1309">
+              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
               <folding>
-                <element signature="e#6#91#0#PHP" expanded="true" />
-                <marker date="1423141874015" expanded="true" signature="489:581" placeholder="INSERT INTO ..." />
-                <marker date="1423141874015" expanded="true" signature="489:610" placeholder="INSERT INTO ..." />
-                <marker date="1423141874015" expanded="true" signature="489:610" placeholder="INSERT INTO ..." />
-                <marker date="1423141874015" expanded="true" signature="489:612" placeholder="INSERT INTO ..." />
+                <element signature="e#36#274#0#HTML" expanded="false" />
+                <marker date="1423208393440" expanded="true" signature="2497:2589" placeholder="INSERT INTO ..." />
+                <marker date="1423208393440" expanded="true" signature="2497:2620" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rtCron.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Admin/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-18.307692" vertical-offset="2091" max-vertical-offset="2890">
+              <caret line="151" column="30" selection-start-line="151" selection-start-column="30" selection-end-line="151" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Admin/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3621">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rtCron.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rtCron.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.62475824" vertical-offset="0" max-vertical-offset="517">
+            <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="476">
               <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
               <folding>
                 <element signature="e#6#91#0#PHP" expanded="true" />
@@ -102,35 +120,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RTCleanerCron.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RTCleanerCron.php">
+      <file leaf-file-name="UserToken.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Admin/UserToken.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.730769" vertical-offset="51" max-vertical-offset="1581">
-              <caret line="24" column="14" selection-start-line="15" selection-start-column="1" selection-end-line="24" selection-end-column="14" />
+            <state vertical-scroll-proportion="31.384615" vertical-offset="816" max-vertical-offset="1802">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1423140298748" expanded="true" signature="419:496" placeholder="SELECT * fro..." />
-                <marker date="1423140298748" expanded="true" signature="949:1003" placeholder="SELECT * fro..." />
+                <marker date="1423135521892" expanded="true" signature="1728:1791" placeholder="SELECT *FROM..AdminTable..." />
+                <marker date="1423135521892" expanded="true" signature="2407:2430" placeholder="select * fro..RTCleaner..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDetails.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Admin/UserDetails.php">
+      <file leaf-file-name="userdetail.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Admin/userdetail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="2907">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="68" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config-sample.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-sample.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="221">
-              <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+      <file leaf-file-name="C325018_rtcleaner.TwitterRT" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/adbd27a5/486127e3-009a-4b91-a1c2-65085a94bb7d/C325018_rtcleaner..TwitterRT">
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -148,8 +171,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Admin/rt.php" />
         <option value="$PROJECT_DIR$/rtCron.php" />
+        <option value="$PROJECT_DIR$/Admin/header.php" />
+        <option value="$PROJECT_DIR$/Admin/rt.php" />
       </list>
     </option>
   </component>
@@ -187,6 +211,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -221,16 +246,26 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../twitteroauth" />
+    <property name="last_opened_file_path" value="C:/xampp-portable/htdocs/TWTCleaner" />
     <property name="FullScreen" value="false" />
     <property name="dynamic.classpath" value="false" />
+    <property name="recentsLimit" value="5" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Old F\PROJECTS\Current Projects\LATEST ASSEMBLA PROJECTS\Php Projects\TWTCleaner\Admin" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.rt.php">
+    <configuration default="false" name="header.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/TWTCleaner/Admin/header.php">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
       <method />
@@ -262,7 +297,20 @@
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
-    <list size="0" />
+    <configuration default="false" name="rt.php" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:63342/TWTCleaner/Admin/rt.php">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.rt.php" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.header.php" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.header.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -283,24 +331,24 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25384617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26153848" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -326,22 +374,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Admin/UserDetails.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-sample.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="221">
-          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4488">
@@ -350,19 +382,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/Login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1700">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/connect.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="561">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -370,7 +393,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="2907">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -378,7 +400,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -386,17 +407,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1836">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="SELECT UserN..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="SELECT Statu..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="UPDATE Delet..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="SELECT useri..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="UPDATE RTCle..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -404,7 +414,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="311" max-vertical-offset="867">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1423135521891" expanded="true" signature="-1:-1" placeholder="select * fro..RTCleaner..." />
+            <marker date="1423135521891" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -424,19 +437,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/Login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1700">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/connect.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="561">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -444,7 +448,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="2907">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -452,7 +455,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -460,17 +462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2448" max-vertical-offset="6409">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="SELECT UserN..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="SELECT Statu..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="UPDATE Delet..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="SELECT useri..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="UPDATE RTCle..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -478,7 +469,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="311" max-vertical-offset="867">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1423135521891" expanded="true" signature="-1:-1" placeholder="select * fro..RTCleaner..." />
+            <marker date="1423135521891" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -498,19 +492,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/Login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1700">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/connect.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="561">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -518,7 +503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="2907">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -526,7 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -534,17 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2448" max-vertical-offset="6409">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="SELECT UserN..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="SELECT Statu..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="UPDATE Delet..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="SELECT useri..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="UPDATE RTCle..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -552,7 +524,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="311" max-vertical-offset="867">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1423135521891" expanded="true" signature="-1:-1" placeholder="select * fro..RTCleaner..." />
+            <marker date="1423135521891" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -576,7 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -584,7 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -592,17 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2193" max-vertical-offset="6409">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="SELECT UserN..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="SELECT Statu..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="UPDATE Delet..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="SELECT useri..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="UPDATE RTCle..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -610,7 +572,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="311" max-vertical-offset="867">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1423135521891" expanded="true" signature="-1:-1" placeholder="select * fro..RTCleaner..." />
+            <marker date="1423135521891" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -634,7 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -642,7 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -650,17 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2193" max-vertical-offset="6409">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="SELECT UserN..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="SELECT Statu..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="UPDATE Delet..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="SELECT useri..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="UPDATE RTCle..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -668,7 +620,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1423135521891" expanded="true" signature="-1:-1" placeholder="select * fro..RTCleaner..." />
+            <marker date="1423135521891" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -680,35 +635,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/userdetail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="2907">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/callback.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="765">
           <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/UserDetails.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="311" max-vertical-offset="867">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/Login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1700">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -716,7 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="561">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -732,7 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3683" max-vertical-offset="4216">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -740,25 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.8846154" vertical-offset="2210" max-vertical-offset="2737">
           <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
-          <folding>
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="SELECT UserN..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="SELECT Statu..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="UPDATE Delet..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="SELECT useri..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="UPDATE RTCle..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1423140298749" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://db-console:/adbd27a5/486127e3-009a-4b91-a1c2-65085a94bb7d/">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="543">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -770,38 +679,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RTCleanerCron.php">
+    <entry file="file://$PROJECT_DIR$/Admin/UserDetails.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.730769" vertical-offset="51" max-vertical-offset="1581">
-          <caret line="24" column="14" selection-start-line="15" selection-start-column="1" selection-end-line="24" selection-end-column="14" />
+        <state vertical-scroll-proportion="13.461538" vertical-offset="350" max-vertical-offset="867">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1423140298748" expanded="true" signature="419:496" placeholder="SELECT * fro..." />
-            <marker date="1423140298748" expanded="true" signature="949:1003" placeholder="SELECT * fro..." />
+            <marker date="1423135521891" expanded="true" signature="-1:-1" placeholder="select * fro..RTCleaner..." />
+            <marker date="1423135521891" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/rt.php">
+    <entry file="file://$PROJECT_DIR$/Admin/UserToken.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="527">
-          <caret line="22" column="53" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="53" />
+        <state vertical-scroll-proportion="31.384615" vertical-offset="816" max-vertical-offset="1802">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6#91#0#PHP" expanded="true" />
-            <marker date="1423141874015" expanded="true" signature="489:581" placeholder="INSERT INTO ..." />
-            <marker date="1423141874015" expanded="true" signature="489:610" placeholder="INSERT INTO ..." />
-            <marker date="1423141874015" expanded="true" signature="489:610" placeholder="INSERT INTO ..." />
-            <marker date="1423141874015" expanded="true" signature="489:612" placeholder="INSERT INTO ..." />
+            <marker date="1423135521892" expanded="true" signature="1728:1791" placeholder="SELECT *FROM..AdminTable..." />
+            <marker date="1423135521892" expanded="true" signature="2407:2430" placeholder="select * fro..RTCleaner..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://db-console:/adbd27a5/486127e3-009a-4b91-a1c2-65085a94bb7d/">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/userdetail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="2907">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RTCleanerCron.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7083333" vertical-offset="51" max-vertical-offset="1581">
+          <caret line="24" column="14" selection-start-line="15" selection-start-column="1" selection-end-line="24" selection-end-column="14" />
+          <folding>
+            <marker date="1423140298748" expanded="true" signature="-1:-1" placeholder="SELECT * fro..." />
+            <marker date="1423140298748" expanded="true" signature="-1:-1" placeholder="SELECT * fro..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rtCron.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62475824" vertical-offset="0" max-vertical-offset="517">
+        <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="476">
           <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding>
             <element signature="e#6#91#0#PHP" expanded="true" />
             <marker date="1423142209773" expanded="true" signature="253:304" placeholder="SELECT * fro..TwitterRT..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/adbd27a5/486127e3-009a-4b91-a1c2-65085a94bb7d/C325018_rtcleaner..TwitterRT">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3621">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.307692" vertical-offset="2091" max-vertical-offset="2890">
+          <caret line="151" column="30" selection-start-line="151" selection-start-column="30" selection-end-line="151" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/rt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7891683" vertical-offset="0" max-vertical-offset="1309">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          <folding>
+            <element signature="e#36#274#0#HTML" expanded="false" />
+            <marker date="1423208393440" expanded="true" signature="2497:2589" placeholder="INSERT INTO ..." />
+            <marker date="1423208393440" expanded="true" signature="2497:2620" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
