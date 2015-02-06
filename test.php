@@ -99,7 +99,7 @@ if($chk->num_rows==0) {
     $RetweetStatus = "True";
     $Crvalue = "Unused";
     
-echo "INSERT INTO DeleteRT (UserName,DeletedRT,CursorValue,Status,CronStatus,DateTime)VALUES ('" . $UserName . "',$IDS,'".$maxid."','" . $RetweetStatus . "','" . $Crvalue . "',$mydate)";
+
 
 
     mysqli_query($connect, "INSERT INTO DeleteRT (UserName,DeletedRT,CursorValue,Status,CronStatus,DateTime)
@@ -125,7 +125,7 @@ while($row = mysqli_fetch_assoc($chk)) {
  if($status=='False'){
 $deleted_rt=$deleted_rt+$id;
     mysqli_query($connect, "UPDATE DeleteRT set Status='True',CursorValue='".$maxid."',DeletedRT='".$deleted_rt."' where UserName='$UserName'");
-	echo "RT Delete Process was done, Now Restarted for your account again. Total Rt Deleted till now is ".$deleted_rt;
+	//echo "RT Delete Process was done, Now Restarted for your account again. Total Rt Deleted till now is ".$deleted_rt;
 
 }
 else{

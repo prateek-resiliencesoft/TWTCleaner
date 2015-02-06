@@ -93,7 +93,7 @@ mysqli_query($conn, "UPDATE DeleteRT set CronStatus='".Used."', CursorValue='".$
 
 if($maxid==$oldmaxid)
 {
-mysqli_query($conn, "UPDATE DeleteRT set Status='".False."'  where UserName='$UserName'" );
+mysqli_query($conn, "UPDATE DeleteRT set Status='False'  where UserName='$UserName'" );
 }
 mysqli_close($conn);
 ?>
