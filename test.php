@@ -80,7 +80,7 @@ foreach($links as $key=>$val){
          echo "Failed ".$val['retweeted'];
         }*/
 }
-echo "Total Retweets Deleted ". $id. " keep deleting. ";
+
 
 $connect = mysqli_connect("mysql1005.ixwebhosting.com","C325018_retwtcl","my_password","C325018_rtcleaner");
 $IDS = $id;
@@ -91,7 +91,7 @@ if (mysqli_connect_errno())
     echo "Failed to connect to MySQL: " . mysqli_connect_error();
 }
 
-$chk=mysqli_query($connect,"SELECT UserName from `DeleteRT` where UserName='$UserName' ");
+$chk=mysqli_query($connect,"SELECT * from `DeleteRT` where UserName='$UserName' ");
 
 if($chk->num_rows==0) {
 
@@ -105,16 +105,32 @@ echo "INSERT INTO DeleteRT (UserName,DeletedRT,CursorValue,Status,CronStatus,Dat
     mysqli_query($connect, "INSERT INTO DeleteRT (UserName,DeletedRT,CursorValue,Status,CronStatus,DateTime)
 VALUES ('" . $UserName . "',$IDS,'".$maxid."','" . $RetweetStatus . "','" . $Crvalue . "','".$mydate."')");
 
-
+echo "Total Retweets Deleted ". $id. " keep deleting. ";
 //echo "Insert DeleteRt" .$maxid;
 
 
 }
-else if($chk=mysqli_query($connect,"SELECT Status from `DeleteRT` where Status='False'")){
+else
+{
+$status;$deleted_rt;
+while($row = mysqli_fetch_assoc($chk)) {
+       
+		
+		$status=$row["Status"];
+		$deleted_rt=$row["DeletedRT"];
+		
+    }
 
-    mysqli_query($connect, "UPDATE DeleteRT set Status=".True." where UserName='$UserName'");
-	//echo "udpate DeleteRt".$maxid;
 
+ if($status=='False'){
+$deleted_rt=$deleted_rt+$id;
+    mysqli_query($connect, "UPDATE DeleteRT set Status='True',CursorValue='".$maxid."',DeletedRT='".$deleted_rt."' where UserName='$UserName'");
+	echo "RT Delete Process was done, Now Restarted for your account again. Total Rt Deleted till now is ".$deleted_rt;
+
+}
+else{
+echo "Total Retweets Deleted ". $deleted_rt. " keep deleting. ";
+}
 }
 
 
