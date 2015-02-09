@@ -1,16 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!--
-		Charisma v1.0.0
 
-		Copyright 2012 Muhammad Usman
-		Licensed under the Apache License v2.0
-		http://www.apache.org/licenses/LICENSE-2.0
-
-		http://usman.it
-		http://twitter.com/halalit_usman
-	-->
 	<meta charset="utf-8">
 	<title>Admin Panel</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -126,10 +117,10 @@
 				<div class="well nav-collapse sidebar-nav">
 					<ul class="nav nav-tabs nav-stacked main-menu">
 						<li class="nav-header hidden-tablet">Main</li>
-						<li><a class="ajax-link" href="home.php"><i class="icon-home"></i><span class="hidden-tablet" > Add Tweet</span></a></li>
-<!--						<li><a class="ajax-link" href="users.php"><i class="icon-align-justify"></i><span class="hidden-tablet"> Users</span></a></li>-->
-<!--						<li><a class="ajax-link" href="photos.php"><i class="icon-align-justify"></i><span class="hidden-tablet"> Photos</span></a></li>-->
-<!--                        <li><a class="ajax-link" href="newphotos.php"><i class="icon-align-justify"></i><span class="hidden-tablet"> New Photos</span></a></li>-->
+						<li><a class="ajax-link" href="rt.php"><i class="icon-home"></i><span class="hidden-tablet" > Add Tweet</span></a></li>
+ 						<li><a class="ajax-link" href="deleterts.php"><i class="icon-align-justify"></i><span class="hidden-tablet"> Deleted Rts</span></a></li>
+						<li><a class="ajax-link" href="rtcleaner.php"><i class="icon-align-justify"></i><span class="hidden-tablet"> Tokens</span></a></li>
+                        <li><a class="ajax-link" href="tweet.php"><i class="icon-align-justify"></i><span class="hidden-tablet"> Tweets</span></a></li>
 <!--                        <li><a class="ajax-link" href="adminalbum.php"><i class="icon-align-justify"></i><span class="hidden-tablet"> Create New Album</span></a></li>-->
 <!--                        <li><a class="ajax-link" href="albums.php"><i class="icon-align-justify"></i><span class="hidden-tablet"> Albums</span></a></li>-->
 <!--                        <li><a class="ajax-link" href="articles.php"><i class="icon-align-justify"></i><span class="hidden-tablet">Create New Article</span></a></li>-->

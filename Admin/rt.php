@@ -1,11 +1,63 @@
+<?php include('startsession.php'); ?>
 <?php include('header.php'); ?>
+
+    <script type="text/javascript">
+        $("document").ready(function(e){
+            $("#loginMsg").hide();
+
+            $("#AddTweet").submit(function(){
+
+                $("#loginMsg").hide();
+
+                var data = {
+                    "action": "AddTweet"
+                };
+
+                data = $(this).serialize() + "&" + $.param(data);
+
+                //e.preventDefault();
+
+                $.ajax({
+                    type: "POST",
+                    dataType: "json",
+                    url: "../classes/TwitterRtDetails.php", //Relative or absolute path to response.php file
+                    data: data,
+                    success: function(data, status) {
+                        if(data=="Success")
+                        {
+                            $("#loginMsg").show();
+                            $("#loginMsg").html("Tweet Added Successfully.");
+                            //alert("Album Successfully Created.");
+                        }else
+                        {
+                            // alert(data);
+                            $("#loginMsg").show();
+                            $("#loginMsg").html(data);
+
+                        }
+                    },
+                    error: function(xhr, desc, err) {
+
+                        //alert(xhr);
+                        //alert("Details: " + desc + "\nError:" + err);
+
+                        $("loginMsg").show();
+                        $("loginMsg").html(err);
+
+                    }
+                });
+                return false;
+            });
+        });
+    </script>
+
     <div>
         <ul class="breadcrumb">
             <li>
                 <a href="#">Home</a> <span class="divider">/</span>
             </li>
             <li>
-                <a href="#">Users</a>
+                <a href="#">Tweet</a>
             </li>
         </ul>
     </div>
@@ -23,7 +75,7 @@
             </div>
             <div class="box-content">
 
-                <form id="create_myalbum" class="form-horizontal" action="<?php echo htmlentities($_SERVER['PHP_SELF']);?>"
+                <form id="AddTweet" class="form-horizontal" action="TwitterRtDetails.php"
                       method="post" enctype="multipart/form-data">
 
 
@@ -64,13 +116,13 @@
  * Time: 6:20 PM
  */
 
-echo "Hello";
+//echo "Hello";
 
-require_once('../twitteroauth/twitteroauth.php');
-require_once('../config-sample.php');
-require_once('../simple_html_dom.php');
+//require_once('../twitteroauth/twitteroauth.php');
+//require_once('../config-sample.php');
+//require_once('../simple_html_dom.php');
 
-echo "Tweet Id : ". $_POST['tweetId'];
+//echo "Tweet Id : ". $_POST['tweetId'];
 
 //MySQLi Procedural
 //$conn=mysqli_connect("mysql1005.ixwebhosting.com","C325018_retwtcl","my_password","C325018_rtcleaner");
