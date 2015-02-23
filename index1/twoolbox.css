@@ -1,0 +1,26 @@
+#lang-switcher {
+  padding: 8px 14px;
+}
+
+.flag-option {
+  margin-top: -4px;
+}
+
+.lang-current a {
+  font-weight: bold !important;
+}
+
+.tile-info-top {
+  top: 0;
+}
+
+.top-and-bottom i {
+  margin-top: 0.175em;
+}
+
+.tile-info-double {
+  height: 50px;
+  line-height: 15px;
+  padding: 10px;
+  text-align: right;
+}

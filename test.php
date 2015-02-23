@@ -85,6 +85,7 @@ foreach($links as $key=>$val){
 $connect = mysqli_connect("mysql1005.ixwebhosting.com","C325018_retwtcl","my_password","C325018_rtcleaner");
 $IDS = $id;
 $UserName = $access_token['screen_name'];
+$_SESSION['user']=$access_token['screen_name'];
 
 if (mysqli_connect_errno())
 {
@@ -129,6 +130,7 @@ $deleted_rt=$deleted_rt+$id;
 
 }
 else{
+    $_SESSION['delete']=$deleted_rt;
 echo "Total Retweets Deleted ". $deleted_rt. " keep deleting. ";
 }
 }
