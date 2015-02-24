@@ -1,5 +1,5 @@
 <?php session_start();
-include('../test.php')?>
+//include('../test.php')?>
 <!DOCTYPE html>
 <!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
 <!--[if gt IE 8]><!-->
@@ -158,7 +158,7 @@ include('../test.php')?>
           <span class="pull-right"><strong><?php echo $_SESSION['delete'] ?></strong><br>Tweets Deleted</span>
       </span>
             </a>
-            <a href="http://deletefollowing.com/?hl=en" class="tile tile-width-2x tile-themed themed-background-cherry">
+       <!--     <a href="http://deletefollowing.com/?hl=en" class="tile tile-width-2x tile-themed themed-background-cherry">
 
       <span class="tile-info tile-info-top">
         <span class="pull-left">Delete Following</span>
@@ -177,7 +177,7 @@ include('../test.php')?>
       <span class="tile-info tile-info-double">
         <span class="pull-right"><strong>1M+</strong><br>Favorites Undone</span>
       </span>
-            </a>
+            </a>-->
             <a style="display: none;" href="http://rtcleaner.com/?hl=en" class="tile tile-width-2x tile-themed themed-background-leaf">
                 <i class="gi gi-retweet"></i>
       <span class="tile-info tile-info-top">
